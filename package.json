@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "npmClient": "yarn",
+  "version": "0.0.1",
+  "scripts": {
+    "build:watch": "tsc -b packages --watch"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/shelljs": "^0.8.8",
+    "lerna": "^3.22.1",
+    "shelljs": "^0.8.4"
+  }
+}
